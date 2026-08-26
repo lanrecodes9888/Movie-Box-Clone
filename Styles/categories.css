@@ -1,0 +1,110 @@
+.category {
+  margin-top: 6px;
+  margin-left: 10px;
+
+  color: rgb(226, 223, 223);
+}
+
+.categories-section {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+  justify-content: start;
+
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+
+  margin-top: 6px;
+  
+  color: rgb(242, 242, 242);
+}
+
+.categories-section div {
+  
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 60px;
+
+  border-radius: 4px;
+   cursor: pointer;
+
+  
+  
+}
+
+
+.categories-section-all {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/460x0w.png);
+
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.categories-section-holly {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/avatar-wayofwater.jpg);
+
+  background-size: cover;
+  background-position: center;
+}
+
+.categories-section-nolly {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/merrymen.jpg);
+
+  background-size: cover;
+  background-position: right;
+}
+
+.categories-section-bolly {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/bollywood.jpg);
+
+  background-size: cover;
+  background-position: right;
+}
+
+.categories-section-western {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/euphoria.jpg);
+
+  background-size: cover;
+  background-position: right;
+}
+
+.categories-section-k-drama {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/k-drama.jpg);
+
+  background-size: cover;
+  background-position: right;
+
+  margin-right: 10px;
+}
+
+.categories-section-football {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/unknown.jpg);
+
+  background-size: cover;
+  background-position: right;
+
+  margin-right: 10px;
+}
+
+.categories-section-animation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/swapped.jpg);
+
+  background-size: cover;
+  background-position: right;
+
+  margin-right: 10px;
+}
+
+.categories-section-wrestling {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../main-img/raw.jpg);
+
+  background-size: cover;
+  background-position: right;
+
+  margin-right: 10px;
+}
+

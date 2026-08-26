@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Box</title>
+
+    <link rel="stylesheet" href="Styles/series.css">
+    <link rel="stylesheet" href="Styles/categories.css">
+    <link rel="stylesheet" href="Styles/header.css">
+  </head>
+
+  <body>
+
+    <header  class="display-movie js-header">
+
+       <div class="position">
+            <div class="search-section">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white" class="js-navbar nav-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+             </svg>
+
+            <img src="main-img/460x0w.png" class="search-section__img">
+            <input type="text" class="search-section__input">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="search-section__svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+            <p class="search-section__movie-name js-movie-name">Avatar Aang</p>
+            <p class="search-section__search">search</p>
+            </div>
+
+       </div>
+
+       <div class="movie-container js-movie-container"></div>
+    
+
+    </header>
+
+    <nav class="js-nav">
+      <div class="nav-english-div">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+        </svg>
+        <p class="nav-english">ENGLISH</p>
+
+        <div class="select">&#x25BC</div>
+
+        <select>
+          <option value="en">English</option>
+          <option value="fre">French</option>
+          <option value="spa">Spanish</option>
+          <option value="arab">عربي</option>
+        </select>
+
+      </div>
+
+      <a href="index.html">
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+        </svg>
+        <p class="nav-text">Home</p>
+      </div>
+      </a>
+
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+        </svg>
+        <p class="nav-text">NovelHub</p>
+      </div>
+
+      <a href="download.html">
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+        </svg>
+        <p class="nav-text">Downloads</p>
+      </div>
+      </a>
+
+      <a href="me.html">
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+        </svg>
+        <p class="nav-text">Me</p>
+      </div>
+
+      </a>
+      
+    </nav>
+
+    <main class="js-main">  
+      <section>
+
+        <div class="category">Categories</div>
+        <div class="categories-section">
+          <div class="categories-section-all">All</div>
+          <div class="categories-section-holly">Hollywood</div>
+          <div class="categories-section-nolly">Nollywood</div>
+          <div class="categories-section-bolly">Bollywood</div>
+          <div class="categories-section-western">Western</div>
+          <div class="categories-section-k-drama">K-Drama</div>
+          <div class="categories-section-animation">Animation</div>
+          <div class="categories-section-wrestling">Wrestling</div>
+          <div class="categories-section-football">Football</div>
+        </div>
+
+      </section>
+
+      <section>
+
+        <div class="series">Series Rankings</div>
+
+        <div class="series-section">
+          <div class="series-section-popular">Popular</div>
+          <div>New</div>
+          <div>Returnings</div>
+          <div>Anime</div>
+          <div>Black Drama</div>
+          <div>SA Drama</div>
+          <div>K-Drama</div>
+          <div>C-Drama</div>
+          <div>Thai-Drama</div>
+          <div>TOP100</div>
+          <div>Action</div>
+          <div>Fantay</div>
+          <div>Sci-Fi</div>
+          <div>Superhero</div>
+          <div>Period</div>
+          <div>Romance</div>
+          <div>Comedy</div>
+          <div>Teen Romance</div>
+          <div>Teen Fantasy</div>
+          <div>Cop Drama</div>
+          <div>Medical Drama</div>
+        </div>
+
+        <div class="ranking-list">
+          <div class="ranking">
+            <img src="main-img/spide-noir.jpg" alt="">
+            <p>Spider-Man...</p>
+            <button class="ranking-btn-1">1</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/offcampus.jpg" alt="">
+            <p>Off Campus</p>
+            <button class="ranking-btn-2">2</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/nemesis.jpg" alt="">
+            <p>Nemesis</p>
+            <button class="ranking-btn-3">3</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/chi.jpg" alt="">
+            <p>Chi</p>
+            <button class="ranking-btn">4</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/oval.jpg" alt="">
+            <p>Oval</p>
+            <button class="ranking-btn">5</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/theboys.jpg" alt="">
+            <p>The Boys</p>
+            <button class="ranking-btn">6</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/unknown.jpg" alt="">
+            <p>Unknown</p>
+            <button class="ranking-btn">7</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/from.jpg" alt="">
+            <p>From</p>
+            <button class="ranking-btn">8</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/euphoria.jpg" alt="">
+            <p>Euphoria</p>
+            <button class="ranking-btn">9</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/citadel.jpg" alt="">
+            <p>Citadel</p>
+            <button class="ranking-btn">10</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/prisoner.jpg" alt="">
+            <p>Prisoner</p>
+            <button class="ranking-btn">11</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/mia.jpg" alt="">
+            <p>M.I.A</p>
+            <button class="ranking-btn">12</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/manonfire.jpg" alt="">
+            <p>Man On Fire</p>
+            <button class="ranking-btn">13</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/divorcesister.jpg" alt="">
+            <p>Divorce S...</p>
+            <button class="ranking-btn">14</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/beautyinblack.jpg" alt="">
+            <p>Beauty In...</p>
+            <button class="ranking-btn">15</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/criminalminds.jpg" alt="">
+            <p>Criminal...</p>
+            <button class="ranking-btn">16</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/war-machine.jpg" alt="">
+            <p>War Machine</p>
+            <button class="ranking-btn">17</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/berlin.jpg" alt="">
+            <p>Berlin</p>
+            <button class="ranking-btn">18</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/hijack.jpg" alt="">
+            <p>Hijack</p>
+            <button class="ranking-btn">19</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/avatar.jpg" alt="">
+            <p>Avatar</p>
+            <button class="ranking-btn">20</button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section>
+
+        <div class="series">Movie Rankings</div>
+
+        <div class="series-section">
+          <div class="series-section-popular">Popular</div>
+          <div>Nollywood</div>
+          <div>Action</div>
+          <div>Horror</div>
+          <div>Romance</div>
+          <div>Comedy</div>
+          <div>Adventure</div>
+          <div>Fantasy</div>
+          <div>Animation</div>
+          <div>BoxOffice TOP200</div>
+          <div>Bollywood</div>
+          <div>South Hindi</div>
+          <div>Yoruba</div>
+          <div>[MARVEL]</div>
+          <div>[DC]</div>
+          <div>Romance</div>
+          <div>[Pixar]</div>
+          <div>[Disney]</div>
+          <div>[Illumination]</div>
+          <div>[Dreamworks]</div>
+          <div>T2</div>
+        </div>
+
+        <div class="ranking-list">
+          <div class="ranking">
+            <img src="main-img/jackryan.jpg" alt="">
+            <p>Jack Ryan</p>
+            <button class="ranking-btn-1">1</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/iron-lung.jpg" alt="">
+            <p>Iron Lung</p>
+            <button class="ranking-btn-2">2</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/desertwarrior.jpg" alt="">
+            <p>Desert Warri...</p>
+            <button class="ranking-btn-3">3</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/fuze.jpg" alt="">
+            <p>Fuze</p>
+            <button class="ranking-btn">4</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/overmydeadbody.jpg" alt="">
+            <p>Over My De...</p>
+            <button class="ranking-btn">5</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/normal.jpg" alt="">
+            <p>Normal</p>
+            <button class="ranking-btn">6</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/unknown.jpg" alt="">
+            <p>Unknown</p>
+            <button class="ranking-btn">7</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/themum.jpg" alt="">
+            <p>Mummy</p>
+            <button class="ranking-btn">8</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/mother-mary.jpg" alt="">
+            <p>Mother M...</p>
+            <button class="ranking-btn">9</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/another-mans-wife.jpg" alt="">
+            <p>Another M...</p>
+            <button class="ranking-btn">10</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/swapped.jpg" alt="">
+            <p>Swapped</p>
+            <button class="ranking-btn">11</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/you-me.jpg" alt="">
+            <p>You,Me &...</p>
+            <button class="ranking-btn">12</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/unknown.jpg" alt="">
+            <p>Unknown</p>
+            <button class="ranking-btn">13</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/theywillkillyou.jpg" alt="">
+            <p>They Will...</p>
+            <button class="ranking-btn">14</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/avatar.jpg" alt="">
+            <p>Avatar Aang</p>
+            <button class="ranking-btn">15</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/brotherunderfire.jpg" alt="">
+            <p>Brother Un...</p>
+            <button class="ranking-btn">16</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/berlin.jpg" alt="">
+            <p>Berlin</p>
+            <button class="ranking-btn">17</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/fastx.jpg" alt="">
+            <p>Fast-X</p>
+            <button class="ranking-btn">18</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/hijack.jpg" alt="">
+            <p>Hijack</p>
+            <button class="ranking-btn">19</button>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/war-machine.jpg" alt="">
+            <p>War Machine</p>
+            <button class="ranking-btn">20</button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section>
+
+        <div class="series">Nollywood Movie</div>
+
+        <div class="ranking-list">
+          <div class="ranking">
+            <img src="main-img/tokillamonkey.jpg" alt="">
+            <p>To Kill A M..</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/behindthescene.jpg" alt="">
+            <p>Behind The...</p>
+          </div>
+        
+
+          <div class="ranking">
+            <img src="main-img/upnorth.jpg" alt="">
+            <p>Up North</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/sugarrush.jpg" alt="">
+            <p>Sugar Rush</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/merrymen.jpg" alt="">
+            <p>Merry Men</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/abanisete.jpg" alt="">
+            <p>Abanisete</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/judah.jpg" alt="">
+            <p>A Tribe call...</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/when-love.jpg" alt="">
+            <p>When Love F...</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/privateequity.jpg" alt="">
+            <p>Private Equi...</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/throneofgame.jpg" alt="">
+            <p>Throne Of...</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/gingerrr.jpg" alt="">
+            <p>Gingerrr</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/myinheritance.jpg" alt="">
+            <p>My Inherita...</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/chritmasinmiami.jpg" alt="">
+            <p>Chritmas In...</p>
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <section>
+
+        <div class="series">K-Drama</div>
+
+        <div class="ranking-list">
+          <div class="ranking">
+            <img src="main-img/squidgame.jpg" alt="">
+            <p>Squid Game</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/jung-e.jpg" alt="">
+            <p>Jung-E</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/hitman2.jpg" alt="">
+            <p>Hitman 2</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/hopeless.jpg" alt="">
+            <p>Hopeless</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/hulu.jpg" alt="">
+            <p>Hulu</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/iron-lung.jpg" alt="">
+            <p>Iron Lung</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/kia.jpg" alt="">
+            <p>KIA</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/kitcheensoldier.jpg" alt="">
+            <p>Kitchen sold...</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/koo.jpg" alt="">
+            <p>Koo</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/lovers.jpg" alt="">
+            <p>Lovers</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/love.jpg" alt="">
+            <p>Lover</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/the-roundup.jpg" alt="">
+            <p>The Round...</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/the-wild.jpg" alt="">
+            <p>The Wild</p>
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <section>
+
+        <div class="series">Bollywood</div>
+
+        <div class="ranking-list">
+          <div class="ranking">
+            <img src="main-img/salaar.jpg" alt="">
+            <p>Salaar</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/kgf.jpg" alt="">
+            <p>K.G.F</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/fighter.jpg" alt="">
+            <p>Fighter</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/sahoo.jpg" alt="">
+            <p>Sahoo</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/article370.jpg" alt="">
+            <p>Article 370</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/cutl.jpg" alt="">
+            <p>Cutl</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/krrish.jpg" alt="">
+            <p>Krrish</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/tezz.jpg" alt="">
+            <p>Tezz</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/uri.jpg" alt="">
+            <p>Uri</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/amaran.jpg" alt="">
+            <p>Amaran</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/blue.jpg" alt="">
+            <p>Blue</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/dhoom.jpg" alt="">
+            <p>Dhoom</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/bigil.jpg" alt="">
+            <p>Bigil</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section>
+
+        <div class="series">Animation</div>
+
+        <div class="ranking-list">
+          <div class="ranking">
+            <img src="main-img/swapped.jpg" alt="">
+            <p>Swapped</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/moana.jpg" alt="">
+            <p>Moana</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/zootopia.jpg" alt="">
+            <p>Zootopia</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/sonic.jpg" alt="">
+            <p>Sonic</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/pussinboot.jpg" alt="">
+            <p>Puss in Boot</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/lionking.jpg" alt="">
+            <p>Lion King</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/pinochio.jpg" alt="">
+            <p>Pinocchio</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/shrek.jpg" alt="">
+            <p>Shrek</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/kungfu-panda.jpg" alt="">
+            <p>Kungfu-Panda</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/cinderela.jpg" alt="">
+            <p>Cinderella</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/coco.jpg" alt="">
+            <p>Coco</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/encanto.jpg" alt="">
+            <p>Encanto</p>
+          </div>
+
+          <div class="ranking">
+            <img src="main-img/nezha.jpg" alt="">
+            <p>Nezha</p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <div  class="nav">
+    
+
+        <a href="index.html">
+          <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+        </svg>
+        <p class="nav-text">Home</p>
+        </div>
+        </a>
+
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+        </svg>
+        <p class="nav-text">NovelHub</p>
+        </div>
+
+        <a href="download.html">
+          <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+        </svg>
+        <p class="nav-text">Downloads</p>
+        </div>
+        </a>
+
+        <a class="a" href="me.html">
+          <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="30" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+        </svg>
+        <p class="nav-text">Me</p>
+        </div>
+        </a>
+
+      </div>
+
+
+
+    </main>
+
+    <script type="module" src="index.js"></script>
+  </body>
+
+</html>

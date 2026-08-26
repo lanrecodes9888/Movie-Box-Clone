@@ -1,0 +1,124 @@
+.series {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  color: rgb(219, 218, 218);
+}
+
+
+.series-section {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+  justify-content: start;
+
+  margin-left: 10px;
+
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+
+  height: 40px;
+
+  color: rgb(242, 242, 242);
+  
+
+ 
+}
+
+.series-section div {
+  padding: 8px 8px;
+  border-radius: 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  
+}
+
+.series-section div:hover {
+  background-color: rgba(109, 107, 107, 0.3);
+}
+
+
+
+
+.ranking-list {
+  display: flex;
+
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.ranking {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: rgb(239, 237, 237);
+
+
+  position: relative;
+}
+
+.ranking img {
+  width: 100px;
+  margin-left: 2px;
+  height: 150px;
+  cursor: pointer;
+
+  
+}
+
+.ranking p {
+  background-color: rgb(30, 29, 29);
+  width: 98px;
+  margin-top: -4px;
+  padding: 3px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  text-overflow: ellipsis;
+
+}
+
+.ranking-btn,
+.ranking-btn-1,
+.ranking-btn-2,
+.ranking-btn-3 {
+  background-color: rgba(80, 78, 78, 0.4);
+  color: white;
+  width: 18px;
+
+  font-size: 12px;
+
+
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border: none;
+
+  position: absolute;
+
+  top: 0;
+  left: 0.5px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ranking-btn-1 {
+   background-color: rgba(226, 57, 113, 0.9);
+}
+
+.ranking-btn-2 {
+  background-color: rgba(225, 37, 37, 0.9);
+}
+
+.ranking-btn-3 {
+  background-color: rgba(219, 193, 42, 0.9);
+}

@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  
+  padding-top: 70px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: black;
+  width: 100vw;
+  border-bottom: 1px solid rgb(38, 37, 37);
+  position: fixed;
+  top: 0;
+
+  z-index: 1000;
+  
+}
+
+
+.download {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.downloaded {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.file-div {
+  display: flex;
+  background-color: rgba(51, 50, 50, 0.8);
+
+  padding: 10px 20px;
+  border-radius: 18px;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+
+.file-div div {
+  color: rgb(114, 247, 66);
+}
+
+.size-6 {
+  width: 18px;
+  margin-right: 5px;
+  color: rgb(114, 216, 77);
+}
+
+.adds {
+  height: 250px;
+  background-image: url('../main-img/adds.jpg');
+  background-size: contain;
+  background-position: center;
+
+  
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 20px;
+
+  border-radius: 10px;
+  
+
+}
+
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+  height: 80px;
+  padding-top: 5px;
+
+  position: sticky;
+  top: 70px;
+
+  z-index: 999;
+  
+  
+
+  background: black;
+}
+
+.absolute {
+  position: absolute;
+  top: 40px;
+
+  display: flex;
+  
+}
+
+.absolute div {
+  margin-left: 15px;
+  background-color: rgb(32, 31, 31);
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.body-container {
+  margin-bottom: 80px;
+}
+
+
+.body {
+  display: flex;
+
+  position: relative;
+
+  margin: 15px;
+  
+}
+
+.body img {
+  height: 70px;
+  width: 110px;
+
+  margin-right: 10px;
+}
+
+.movie-name {
+  margin-top: 6px;
+}
+
+.movie-mb {
+  font-size: 13px;
+  margin-top: 5px;
+  color: rgb(168, 160, 160);
+}
+
+.percent-watch {
+  color: rgb(205, 201, 197);
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.play-svg {
+  position: absolute;
+
+  width: 25px;
+
+  left: 40px;
+  top: 20px;
+  
+}
+
+
+.dot {
+  position: absolute;
+
+  right: 12px;
+  bottom: 40px;
+
+  width: 20px;
+}
+
+.play-btn {
+  width: 60px;
+  height: 25px;
+
+  border-radius: 6px;
+
+  background-color: rgb(69, 181, 29);
+  border: none;
+
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+}

@@ -16,17 +16,15 @@
   white-space: nowrap;
   scrollbar-width: none;
 
-  margin-top: 6px;
+  margin-top: 10px;
   
   color: rgb(242, 242, 242);
 }
 
 .categories-section div {
   
-  padding-top: 20px;
-  padding-bottom: 40px;
-  padding-left: 10px;
-  padding-right: 60px;
+  padding: 70px 100px;
+  
 
   border-radius: 4px;
    cursor: pointer;

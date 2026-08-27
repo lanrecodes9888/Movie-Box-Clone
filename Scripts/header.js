@@ -73,7 +73,7 @@ const infos = [
     type: 'Action'
   },{
     image: 'main-img/mummy-w.jpg',
-    img: 'main-img/mummy.jpg',
+    img: 'main-img/themum.jpg',
     name: "Lee Cronin's The Mummy",
     year: '2026',
     type: 'Action'

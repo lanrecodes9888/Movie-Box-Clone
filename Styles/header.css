@@ -22,7 +22,7 @@ main {
 
   margin-top: 56px;
 
-  height: 70vh;
+  height: 600px;
  
   
   
@@ -260,7 +260,7 @@ a {
   white-space: nowrap;
   scrollbar-width: none;
 
-  padding-top: 330px;
+  padding-top: 440px;
   cursor: pointer;
 
   
@@ -274,8 +274,8 @@ a {
 
   align-items: center;
 
-  min-width: 250px;
-  height: 60px;
+  min-width: 370px;
+  height: 150px;
 
   background-color: rgba(41, 40, 40, 0.9);
   border-radius: 4px;
@@ -283,10 +283,12 @@ a {
   position: relative;
   margin-left: 10px;
   margin-right: 10px;
+
+  
 }
 
 .about-movie-section__img {
-  width: 50px;
+  width: 130px;
   position: absolute;
   left: 10px;
   bottom: 2px;
@@ -298,7 +300,7 @@ a {
 }
 
 .about-movie-section__name {
-  padding-left: 64px;
+  padding-left: 175px;
   font-size: 14px;
   color: rgb(231, 227, 227);
   margin-top: 8px;

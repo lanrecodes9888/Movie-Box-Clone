@@ -1,97 +1,97 @@
 const infos = [
   {
-    image: '../main-img/avatar-w.jpg',
-    img: '../main-img/avatar.jpg',
+    image: 'main-img/avatar-w.jpg',
+    img: 'main-img/avatar.jpg',
     name: 'Avatar Aang',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/desertwarrior-w.jpg',
-    img: '../main-img/desertwarrior.jpg',
+    image: 'main-img/desertwarrior-w.jpg',
+    img: 'main-img/desertwarrior.jpg',
     name: 'Desert Warrior',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/from-w.jpg',
-    img: '../main-img/from.jpg',
+    image: 'main-img/from-w.jpg',
+    img: 'main-img/from.jpg',
     name: 'From',
     year: '2026',
     type: 'Drama'
   },{
-    image: '../main-img/fuze-w.jpg',
-    img: '../main-img/fuze.jpg',
+    image: 'main-img/fuze-w.jpg',
+    img: 'main-img/fuze.jpg',
     name: 'Fuze',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/jackryan-w.jpg',
-    img: '../main-img/jackryan.jpg',
+    image: 'main-img/jackryan-w.jpg',
+    img: 'main-img/jackryan.jpg',
     name: "Tom Clancy's Jack Ryan",
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/nemesis-w.jpg',
-    img: '../main-img/nemesis.jpg',
+    image: 'main-img/nemesis-w.jpg',
+    img: 'main-img/nemesis.jpg',
     name: 'Nemesis',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/normal-w.jpg',
-    img: '../main-img/normal.jpg',
+    image: 'main-img/normal-w.jpg',
+    img: 'main-img/normal.jpg',
     name: 'Normal',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/offcampus-w.jpg',
-    img: '../main-img/offcampus.jpg',
+    image: 'main-img/offcampus-w.jpg',
+    img: 'main-img/offcampus.jpg',
     name: 'Off Campus',
     year: '2026',
     type: 'Drama'
   },{
-    image: '../main-img/overmydeadbody-w.jpg',
-    img: '../main-img/overmydeadbody.jpg',
+    image: 'main-img/overmydeadbody-w.jpg',
+    img: 'main-img/overmydeadbody.jpg',
     name: 'Over My Dead Body',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/spide-noir-w.jpg',
-    img: '../main-img/spide-noir.jpg',
+    image: 'main-img/spide-noir-w.jpg',
+    img: 'main-img/spide-noir.jpg',
     name: 'Spider-Man Noir',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/swapped-w.jpg',
-    img: '../main-img/swapped.jpg',
+    image: 'main-img/swapped-w.jpg',
+    img: 'main-img/swapped.jpg',
     name: 'Swapped',
     year: '2026',
     type: 'Animation'
   },{
-    image: '../main-img/theboys-w.jpg',
-    img: '../main-img/theboys.jpg',
+    image: 'main-img/theboys-w.jpg',
+    img: 'main-img/theboys.jpg',
     name: 'The Boys',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/mummy-w.jpg',
-    img: '../main-img/mummy.jpg',
+    image: 'main-img/mummy-w.jpg',
+    img: 'main-img/mummy.jpg',
     name: "Lee Cronin's The Mummy",
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/smackdown-w.jpg',
-    img: '../main-img/smackdown.jpg',
+    image: 'main-img/smackdown-w.jpg',
+    img: 'main-img/smackdown.jpg',
     name: 'SmackDown',
     year: '2026',
     type: 'Wrestling'
   },{
-    image: '../main-img/prisoner-w.jpg',
-    img: '../main-img/prisoner.jpg',
+    image: 'main-img/prisoner-w.jpg',
+    img: 'main-img/prisoner.jpg',
     name: 'Prisoner',
     year: '2026',
     type: 'Action'
   },{
-    image: '../main-img/avatar-wayofwater-w.jpg',
-    img: '../main-img/avatar-wayofwater.jpg',
+    image: 'main-img/avatar-wayofwater-w.jpg',
+    img: 'main-img/avatar-wayofwater.jpg',
     name: 'Avatar Way Of Water',
     year: '2026',
     type: 'Action'

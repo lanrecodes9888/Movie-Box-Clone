@@ -111,7 +111,7 @@ main {
   color: rgb(2, 112, 2);
 
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
 
   position: absolute;
   right: 10px;
@@ -282,7 +282,7 @@ a {
 
   align-items: center;
 
-  min-width: 370px;
+  min-width: 400px;
   height: 150px;
 
   background-color: rgba(41, 40, 40, 0.9);

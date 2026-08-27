@@ -23,6 +23,8 @@ main {
   margin-top: 56px;
 
   height: 600px;
+  font-size: 25px;
+  font-weight: bold;
  
   
   
@@ -306,8 +308,8 @@ a {
 }
 
 .about-movie-section__name {
-  padding-left: 175px;
-  font-size: 14px;
+  padding-left: 150px;
+  font-size: 18px;
   color: rgb(231, 227, 227);
   margin-top: 8px;
 

@@ -1,6 +1,8 @@
 .category {
-  margin-top: 6px;
+  margin-top: 12px;
   margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
 
   color: rgb(226, 223, 223);
 }
@@ -27,7 +29,10 @@
   
 
   border-radius: 4px;
-   cursor: pointer;
+  cursor: pointer;
+
+  font-size: 25px;
+  font-weight: bold;
 
   
   
